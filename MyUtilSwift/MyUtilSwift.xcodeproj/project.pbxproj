@@ -12,6 +12,10 @@
 		65CC833E1D700DA100F8852E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CC833C1D700DA100F8852E /* Main.storyboard */; };
 		65CC83401D700DA100F8852E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65CC833F1D700DA100F8852E /* Assets.xcassets */; };
 		65CC83431D700DA100F8852E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CC83411D700DA100F8852E /* LaunchScreen.storyboard */; };
+		65CC834C1D700FFB00F8852E /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC834B1D700FFB00F8852E /* TodoTableViewController.swift */; };
+		65CC834E1D70164200F8852E /* TodoSchedulingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC834D1D70164200F8852E /* TodoSchedulingViewController.swift */; };
+		65CC83501D70179B00F8852E /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC834F1D70179B00F8852E /* TodoItem.swift */; };
+		65CC83521D70215D00F8852E /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC83511D70215D00F8852E /* TodoList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		65CC833F1D700DA100F8852E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65CC83421D700DA100F8852E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65CC83441D700DA100F8852E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CC834B1D700FFB00F8852E /* TodoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
+		65CC834D1D70164200F8852E /* TodoSchedulingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoSchedulingViewController.swift; sourceTree = "<group>"; };
+		65CC834F1D70179B00F8852E /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		65CC83511D70215D00F8852E /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		65CC83371D700DA100F8852E /* MyUtilSwift */ = {
 			isa = PBXGroup;
 			children = (
+				65CC834A1D700FCA00F8852E /* todolist */,
 				65CC83381D700DA100F8852E /* AppDelegate.swift */,
 				65CC833A1D700DA100F8852E /* ViewController.swift */,
 				65CC833C1D700DA100F8852E /* Main.storyboard */,
@@ -62,6 +71,17 @@
 				65CC83441D700DA100F8852E /* Info.plist */,
 			);
 			path = MyUtilSwift;
+			sourceTree = "<group>";
+		};
+		65CC834A1D700FCA00F8852E /* todolist */ = {
+			isa = PBXGroup;
+			children = (
+				65CC834B1D700FFB00F8852E /* TodoTableViewController.swift */,
+				65CC834D1D70164200F8852E /* TodoSchedulingViewController.swift */,
+				65CC834F1D70179B00F8852E /* TodoItem.swift */,
+				65CC83511D70215D00F8852E /* TodoList.swift */,
+			);
+			name = todolist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65CC83501D70179B00F8852E /* TodoItem.swift in Sources */,
+				65CC834E1D70164200F8852E /* TodoSchedulingViewController.swift in Sources */,
 				65CC833B1D700DA100F8852E /* ViewController.swift in Sources */,
+				65CC83521D70215D00F8852E /* TodoList.swift in Sources */,
+				65CC834C1D700FFB00F8852E /* TodoTableViewController.swift in Sources */,
 				65CC83391D700DA100F8852E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +310,7 @@
 				65CC83491D700DA100F8852E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
