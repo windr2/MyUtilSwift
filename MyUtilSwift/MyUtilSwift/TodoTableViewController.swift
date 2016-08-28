@@ -22,13 +22,15 @@ class TodoTableViewController: UITableViewController{
             object: nil)
     }
     
+    
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         refreshList()
     }
     
     func refreshList() {
-        todoItems = TodoList.sharedInstance.allItem();
+        todoItems = TodoList.sharedInstance.allItems();
         
         if todoItems.count >= 64 {
             self.navigationItem.rightBarButtonItem!.enabled = false

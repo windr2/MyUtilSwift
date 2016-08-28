@@ -25,6 +25,13 @@
                                     <segue destination="1b8-Pl-Ei1" kind="show" id="my8-vM-caQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Hs-5V-KBc">
+                                <rect key="frame" x="46" y="161" width="60" height="30"/>
+                                <state key="normal" title="webview"/>
+                                <connections>
+                                    <segue destination="4zs-2n-pjz" kind="show" id="b27-JJ-zZc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -34,6 +41,94 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="775.5" y="543.5"/>
+        </scene>
+        <!--Webview Controller-->
+        <scene sceneID="yri-Nn-uai">
+            <objects>
+                <viewController id="4zs-2n-pjz" customClass="WebviewController" customModule="MyUtilSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5vD-yK-1v5"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qrw-tu-t2Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3HP-yY-qpL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="FxQ-M4-Mb5">
+                                <rect key="frame" x="0.0" y="64" width="375" height="29"/>
+                                <segments>
+                                    <segment title="facebook"/>
+                                    <segment title="twitter"/>
+                                    <segment title="apple"/>
+                                    <segment title="google"/>
+                                </segments>
+                                <connections>
+                                    <action selector="bookMarkAction:" destination="4zs-2n-pjz" eventType="valueChanged" id="Zd9-vm-SUy"/>
+                                </connections>
+                            </segmentedControl>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="URL:" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="u69-Ec-tpQ">
+                                <rect key="frame" x="0.0" y="95" width="375" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL" returnKeyType="go"/>
+                                <connections>
+                                    <outlet property="delegate" destination="4zs-2n-pjz" id="rwA-eB-o7n"/>
+                                </connections>
+                            </textField>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wlX-hl-LFY">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="YhS-no-x4q"/>
+                                    <barButtonItem systemItem="rewind" id="fYi-tA-ZBv">
+                                        <connections>
+                                            <action selector="goBack" destination="WnA-ak-Jad" id="APu-Db-yBr"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="YPe-hZ-XN8"/>
+                                    <barButtonItem systemItem="fastForward" id="rco-mS-P92">
+                                        <connections>
+                                            <action selector="goForward" destination="WnA-ak-Jad" id="8f6-pv-cU1"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="vDZ-om-Vnj"/>
+                                    <barButtonItem systemItem="stop" id="4u1-f0-ldY">
+                                        <connections>
+                                            <action selector="stopLoading" destination="WnA-ak-Jad" id="EOg-jH-Vou"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="4tB-lx-pec"/>
+                                    <barButtonItem systemItem="refresh" id="Zid-0v-QdR">
+                                        <connections>
+                                            <action selector="reload" destination="WnA-ak-Jad" id="MzD-Vz-ql5"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="XkT-ia-cca"/>
+                                </items>
+                            </toolbar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WnA-ak-Jad">
+                                <rect key="frame" x="0.0" y="128" width="375" height="495"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="4zs-2n-pjz" id="Wg1-eJ-NPv"/>
+                                </connections>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="qF3-1A-L7V">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <color key="color" red="0.96590723170000004" green="0.4644915" blue="0.50887607260000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="bookMarkSegmentedControl" destination="FxQ-M4-Mb5" id="39i-Tz-72m"/>
+                        <outlet property="mainWebView" destination="WnA-ak-Jad" id="8W6-lO-3jZ"/>
+                        <outlet property="spinningActivityIndicatorView" destination="qF3-1A-L7V" id="BZl-vQ-rlc"/>
+                        <outlet property="urlTextField" destination="u69-Ec-tpQ" id="Gr9-ju-yho"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fvt-Ca-XHm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1259.5" y="969.5"/>
         </scene>
         <!--To Do-->
         <scene sceneID="6qC-xq-Jiu">
@@ -55,14 +150,14 @@
                                             <rect key="frame" x="15" y="6" width="31.5" height="19.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Gd7-eN-yrx">
                                             <rect key="frame" x="15" y="25.5" width="40.5" height="13.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -87,7 +182,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IP6-Rn-WdC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1386.5" y="-192.5"/>
+            <point key="canvasLocation" x="1264.5" y="-192.5"/>
         </scene>
         <!--Todo Scheduling View Controller-->
         <scene sceneID="n1K-RB-sIr">

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		657739D31D72DA5500F21740 /* WebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657739D21D72DA5500F21740 /* WebviewController.swift */; };
 		65CC83391D700DA100F8852E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC83381D700DA100F8852E /* AppDelegate.swift */; };
 		65CC833B1D700DA100F8852E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC833A1D700DA100F8852E /* ViewController.swift */; };
 		65CC833E1D700DA100F8852E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CC833C1D700DA100F8852E /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		657739D21D72DA5500F21740 /* WebviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebviewController.swift; sourceTree = "<group>"; };
 		65CC83351D700DA100F8852E /* MyUtilSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyUtilSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65CC83381D700DA100F8852E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65CC833A1D700DA100F8852E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		657739D11D72D68800F21740 /* webview */ = {
+			isa = PBXGroup;
+			children = (
+				657739D21D72DA5500F21740 /* WebviewController.swift */,
+			);
+			name = webview;
+			sourceTree = "<group>";
+		};
 		65CC832C1D700DA100F8852E = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		65CC83371D700DA100F8852E /* MyUtilSwift */ = {
 			isa = PBXGroup;
 			children = (
+				657739D11D72D68800F21740 /* webview */,
 				65CC834A1D700FCA00F8852E /* todolist */,
 				65CC83381D700DA100F8852E /* AppDelegate.swift */,
 				65CC833A1D700DA100F8852E /* ViewController.swift */,
@@ -158,6 +169,7 @@
 				65CC83501D70179B00F8852E /* TodoItem.swift in Sources */,
 				65CC834E1D70164200F8852E /* TodoSchedulingViewController.swift in Sources */,
 				65CC833B1D700DA100F8852E /* ViewController.swift in Sources */,
+				657739D31D72DA5500F21740 /* WebviewController.swift in Sources */,
 				65CC83521D70215D00F8852E /* TodoList.swift in Sources */,
 				65CC834C1D700FFB00F8852E /* TodoTableViewController.swift in Sources */,
 				65CC83391D700DA100F8852E /* AppDelegate.swift in Sources */,
