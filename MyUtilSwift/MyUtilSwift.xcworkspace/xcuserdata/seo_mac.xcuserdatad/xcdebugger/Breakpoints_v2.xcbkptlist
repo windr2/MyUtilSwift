@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyUtilSwift/FirebaseAuthViewController.swift"
+            timestampString = "494254386.922647"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "FirebaseAuthViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyUtilSwift.FirebaseAuthViewController.Password.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "MyUtilSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seo_mac/Desktop/prj_swift/_MyUtilSwift/MyUtilSwift/MyUtilSwift/FirebaseAuthViewController.swift"
+                  timestampString = "494254477.348754"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyUtilSwift.FirebaseAuthViewController.Password.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "MyUtilSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seo_mac/Desktop/prj_swift/_MyUtilSwift/MyUtilSwift/MyUtilSwift/FirebaseAuthViewController.swift"
+                  timestampString = "494254477.348949"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyUtilSwift.FirebaseAuthViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; MyUtilSwift.FirebaseAuthViewController"
+                  moduleName = "MyUtilSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seo_mac/Desktop/prj_swift/_MyUtilSwift/MyUtilSwift/MyUtilSwift/FirebaseAuthViewController.swift"
+                  timestampString = "494254477.349131"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyUtilSwift.FirebaseAuthViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MyUtilSwift.FirebaseAuthViewController&gt;"
+                  moduleName = "MyUtilSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seo_mac/Desktop/prj_swift/_MyUtilSwift/MyUtilSwift/MyUtilSwift/FirebaseAuthViewController.swift"
+                  timestampString = "494254477.349303"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyUtilSwift/FirebaseAuthViewController.swift"
+            timestampString = "494254716.337655"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "createAccount(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

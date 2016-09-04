@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1057568805145-7v1l2r7rfbbqpteh0a9odf231db0kugm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1057568805145-7v1l2r7rfbbqpteh0a9odf231db0kugm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDvGnF6w7q7UAPhRUDDYfBNTHhyuayEyTk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1057568805145</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.seo.test.gps</string>
+	<key>PROJECT_ID</key>
+	<string>fir-chat-64640</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-chat-64640.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1057568805145:ios:fd7cc006df42670d</string>
+	<key>DATABASE_URL</key>
+	<string>https://fir-chat-64640.firebaseio.com</string>
+</dict>
+</plist>

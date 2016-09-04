@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		651A05CC1D75AAE1009126CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 651A05CB1D75AAE1009126CE /* GoogleService-Info.plist */; };
+		651A05D21D75B738009126CE /* FirebaseAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651A05D11D75B738009126CE /* FirebaseAuthViewController.swift */; };
+		6567268E1D74000D003425A7 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6567268D1D74000D003425A7 /* PhotosViewController.swift */; };
+		656726901D74014E003425A7 /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6567268F1D74014E003425A7 /* FlickrAPI.swift */; };
+		656726921D740F22003425A7 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656726911D740F22003425A7 /* PhotoStore.swift */; };
+		656726941D741292003425A7 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656726931D741292003425A7 /* Photo.swift */; };
+		656726961D74190A003425A7 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656726951D74190A003425A7 /* PhotoTableViewController.swift */; };
 		657739D31D72DA5500F21740 /* WebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657739D21D72DA5500F21740 /* WebviewController.swift */; };
+		6579D2D31D7882EB0076A230 /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6579D2D21D7882EB0076A230 /* PhotoDataSource.swift */; };
+		6579D2D61D7889240076A230 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6579D2D51D7889240076A230 /* PhotoCollectionViewCell.swift */; };
 		65CC83391D700DA100F8852E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC83381D700DA100F8852E /* AppDelegate.swift */; };
 		65CC833B1D700DA100F8852E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC833A1D700DA100F8852E /* ViewController.swift */; };
 		65CC833E1D700DA100F8852E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CC833C1D700DA100F8852E /* Main.storyboard */; };
@@ -17,10 +26,33 @@
 		65CC834E1D70164200F8852E /* TodoSchedulingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC834D1D70164200F8852E /* TodoSchedulingViewController.swift */; };
 		65CC83501D70179B00F8852E /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC834F1D70179B00F8852E /* TodoItem.swift */; };
 		65CC83521D70215D00F8852E /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC83511D70215D00F8852E /* TodoList.swift */; };
+		EB82CA2ECE81138A934C8F10 /* Pods_MyUtilSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632C1685F2D4A97AAE557497 /* Pods_MyUtilSwift.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		651A05C01D75A311009126CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 651A05BC1D75A311009126CE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F931AA85CDD57592D81630837D07F7F;
+			remoteInfo = "Pods-MyUtilSwift";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5E797309E7C5E31E498FC45E /* Pods-MyUtilSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyUtilSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyUtilSwift/Pods-MyUtilSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		632C1685F2D4A97AAE557497 /* Pods_MyUtilSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyUtilSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		651A05BC1D75A311009126CE /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		651A05CB1D75AAE1009126CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		651A05D11D75B738009126CE /* FirebaseAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAuthViewController.swift; sourceTree = "<group>"; };
+		6567268D1D74000D003425A7 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		6567268F1D74014E003425A7 /* FlickrAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		656726911D740F22003425A7 /* PhotoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
+		656726931D741292003425A7 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		656726951D74190A003425A7 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
 		657739D21D72DA5500F21740 /* WebviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebviewController.swift; sourceTree = "<group>"; };
+		6579D2D21D7882EB0076A230 /* PhotoDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
+		6579D2D51D7889240076A230 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		65CC83351D700DA100F8852E /* MyUtilSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyUtilSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65CC83381D700DA100F8852E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65CC833A1D700DA100F8852E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +64,7 @@
 		65CC834D1D70164200F8852E /* TodoSchedulingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoSchedulingViewController.swift; sourceTree = "<group>"; };
 		65CC834F1D70179B00F8852E /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		65CC83511D70215D00F8852E /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		B50E04C5F2FCDADB80A8D525 /* Pods-MyUtilSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyUtilSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyUtilSwift/Pods-MyUtilSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,12 +72,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB82CA2ECE81138A934C8F10 /* Pods_MyUtilSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		476A42527FC36C56042EEFE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E797309E7C5E31E498FC45E /* Pods-MyUtilSwift.debug.xcconfig */,
+				B50E04C5F2FCDADB80A8D525 /* Pods-MyUtilSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		651A053C1D75984C009126CE /* firebase */ = {
+			isa = PBXGroup;
+			children = (
+				651A05D11D75B738009126CE /* FirebaseAuthViewController.swift */,
+			);
+			name = firebase;
+			sourceTree = "<group>";
+		};
+		651A05BD1D75A311009126CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				651A05C11D75A311009126CE /* Pods_MyUtilSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6567268C1D73FE0A003425A7 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				6567268D1D74000D003425A7 /* PhotosViewController.swift */,
+				656726951D74190A003425A7 /* PhotoTableViewController.swift */,
+				6567268F1D74014E003425A7 /* FlickrAPI.swift */,
+				656726911D740F22003425A7 /* PhotoStore.swift */,
+				656726931D741292003425A7 /* Photo.swift */,
+				6579D2D21D7882EB0076A230 /* PhotoDataSource.swift */,
+				6579D2D51D7889240076A230 /* PhotoCollectionViewCell.swift */,
+			);
+			name = list;
+			sourceTree = "<group>";
+		};
 		657739D11D72D68800F21740 /* webview */ = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +131,8 @@
 			children = (
 				65CC83371D700DA100F8852E /* MyUtilSwift */,
 				65CC83361D700DA100F8852E /* Products */,
+				476A42527FC36C56042EEFE4 /* Pods */,
+				AFA0040E2DF0F558DFC3BEFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +147,9 @@
 		65CC83371D700DA100F8852E /* MyUtilSwift */ = {
 			isa = PBXGroup;
 			children = (
+				651A05CB1D75AAE1009126CE /* GoogleService-Info.plist */,
+				651A053C1D75984C009126CE /* firebase */,
+				6567268C1D73FE0A003425A7 /* list */,
 				657739D11D72D68800F21740 /* webview */,
 				65CC834A1D700FCA00F8852E /* todolist */,
 				65CC83381D700DA100F8852E /* AppDelegate.swift */,
@@ -95,6 +173,15 @@
 			name = todolist;
 			sourceTree = "<group>";
 		};
+		AFA0040E2DF0F558DFC3BEFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				651A05BC1D75A311009126CE /* Pods.xcodeproj */,
+				632C1685F2D4A97AAE557497 /* Pods_MyUtilSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65CC83471D700DA100F8852E /* Build configuration list for PBXNativeTarget "MyUtilSwift" */;
 			buildPhases = (
+				D500BCC95FF4C8AF8EC3FCFA /* [CP] Check Pods Manifest.lock */,
 				65CC83311D700DA100F8852E /* Sources */,
 				65CC83321D700DA100F8852E /* Frameworks */,
 				65CC83331D700DA100F8852E /* Resources */,
+				B9B027921FD177D92DDEA5A7 /* [CP] Embed Pods Frameworks */,
+				72E268EE716300C554C6E5CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,6 +231,12 @@
 			mainGroup = 65CC832C1D700DA100F8852E;
 			productRefGroup = 65CC83361D700DA100F8852E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 651A05BD1D75A311009126CE /* Products */;
+					ProjectRef = 651A05BC1D75A311009126CE /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				65CC83341D700DA100F8852E /* MyUtilSwift */,
@@ -148,12 +244,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		651A05C11D75A311009126CE /* Pods_MyUtilSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_MyUtilSwift.framework;
+			remoteRef = 651A05C01D75A311009126CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		65CC83331D700DA100F8852E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				65CC83431D700DA100F8852E /* LaunchScreen.storyboard in Resources */,
+				651A05CC1D75AAE1009126CE /* GoogleService-Info.plist in Resources */,
 				65CC83401D700DA100F8852E /* Assets.xcassets in Resources */,
 				65CC833E1D700DA100F8852E /* Main.storyboard in Resources */,
 			);
@@ -161,17 +268,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		72E268EE716300C554C6E5CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyUtilSwift/Pods-MyUtilSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B027921FD177D92DDEA5A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyUtilSwift/Pods-MyUtilSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D500BCC95FF4C8AF8EC3FCFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65CC83311D700DA100F8852E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				65CC83501D70179B00F8852E /* TodoItem.swift in Sources */,
+				6579D2D31D7882EB0076A230 /* PhotoDataSource.swift in Sources */,
+				6567268E1D74000D003425A7 /* PhotosViewController.swift in Sources */,
+				651A05D21D75B738009126CE /* FirebaseAuthViewController.swift in Sources */,
+				656726921D740F22003425A7 /* PhotoStore.swift in Sources */,
 				65CC834E1D70164200F8852E /* TodoSchedulingViewController.swift in Sources */,
+				656726901D74014E003425A7 /* FlickrAPI.swift in Sources */,
 				65CC833B1D700DA100F8852E /* ViewController.swift in Sources */,
 				657739D31D72DA5500F21740 /* WebviewController.swift in Sources */,
+				656726941D741292003425A7 /* Photo.swift in Sources */,
 				65CC83521D70215D00F8852E /* TodoList.swift in Sources */,
+				6579D2D61D7889240076A230 /* PhotoCollectionViewCell.swift in Sources */,
 				65CC834C1D700FFB00F8852E /* TodoTableViewController.swift in Sources */,
+				656726961D74190A003425A7 /* PhotoTableViewController.swift in Sources */,
 				65CC83391D700DA100F8852E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,22 +446,32 @@
 		};
 		65CC83481D700DA100F8852E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E797309E7C5E31E498FC45E /* Pods-MyUtilSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyUtilSwift",
+				);
 				INFOPLIST_FILE = MyUtilSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.seo.test.gps.MyUtilSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seo.test.gps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		65CC83491D700DA100F8852E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50E04C5F2FCDADB80A8D525 /* Pods-MyUtilSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyUtilSwift",
+				);
 				INFOPLIST_FILE = MyUtilSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.seo.test.gps.MyUtilSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seo.test.gps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
